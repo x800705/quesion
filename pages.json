@@ -1,0 +1,95 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+	
+	{
+	    "path" : "pages/main/main",
+	    "style" :                                                                                    
+	    {
+	        "navigationBarTitleText": "刷题宝",
+	        "enablePullDownRefresh": false
+	    }
+		
+	    
+	},
+	
+	
+	
+	{
+		"path" : "pages/ad/ad",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "题目列表",
+				"enablePullDownRefresh": true
+				
+			}
+		},
+		
+		{
+            "path" : "pages/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "题目设置",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		
+		{
+		    "path" : "pages/list/list",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "题库",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path" : "pages/addList/addList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加题库",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/listque/listque",
+			"style" : 
+			{
+				"navigationBarTitleText" : "题目列表",
+				"enablePullDownRefresh" : false
+			}
+		}
+     
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar":{
+		"list":[
+			{
+				"pagePath":"pages/main/main",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/list/list",
+				"text":"题库"
+			}
+			
+		]
+	},
+	"uniIdRouter": {}
+}
